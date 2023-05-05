@@ -1,6 +1,7 @@
 # logos
 Sistematis Dalam Bahasa Yang Logis
 
+print("=======DATE & TIME=======")
 print("Silahkan masukan tanggal, \nbulan dan tahun lahir anda \n")
 tanggal = int(input("Tanggal \t:"))
 bulan = int(input("Bulan \t\t:"))
@@ -19,10 +20,8 @@ umur_bulan_sisa = (umur_hari.days % 365) // 30
 print(f"Hari nya adalah : {tanggal_lahir:%A}")
 print(f"umur anda adalah: {umur_tahun} tahun, {umur_bulan_sisa} bulan")
 
-<======================================================================>
 
-print("\nPROGRAM KONVERSI TEMPERATUR\n")
-
+print("=======\nPROGRAM KONVERSI TEMPERATUR\n======")
 celcius = float(input('Masukan suhu dalam celcius : '))
 print("Suhu adalah",celcius, "Celcius")
 
@@ -41,10 +40,8 @@ print("suhu dalam farenheit adalah ",fahrenheit, "fahrenheit")
 kelvin = celcius + 273
 print("suhu dalam kelvin adalah ",kelvin, "kelvin")
 
-<======================================================================>
 
-# table distribusi frekuensi
-
+print("=======table distribusi frekuensi=======")
 # bagian pada table distribusi frekuensi:
 # 1. kelas interval = kelompok nilai data yang di tulis dalam bentuk interval
 
@@ -57,8 +54,7 @@ print("suhu dalam kelvin adalah ",kelvin, "kelvin")
 # 5. titik tengah kelas = x1= 1/2 * ((a)batas atas + (b)batas bawah))
 
 
-# tentukan jangkauan kelas((a)batas atas - (b)batas bawah))
-
+print("=======tentukan jangkauan kelas((a) data terbesar - (b) data terkecil=======")
 x = 95
 _y = 42
 hasil = x - _y
@@ -79,10 +75,8 @@ _y = 6  # banyak kelas
 hasil = x / _y
 print(x, "/", _y, "=", hasil)
 
-<===============================================================================>
 
-# table distribusi frekuensi
-
+print("=======table distribusi frekuensi=======")
 # bagian pada table distribusi frekuensi:
 # 1. kelas interval = kelompok nilai data yang di tulis dalam bentuk interval
 
@@ -95,8 +89,7 @@ print(x, "/", _y, "=", hasil)
 # 5. titik tengah kelas = x1= 1/2 * ((a)batas atas + (b)batas bawah))
 
 
-# tentukan jangkauan kelas((a)batas atas - (b)batas bawah))
-
+print("=======tentukan jangkauan kelas (a)batas atas - (b)batas bawah=======")
 x = 95
 _y = 42
 hasil = x - _y
@@ -116,8 +109,6 @@ x = 53  # jangkauan kelas
 _y = 6  # banyak kelas
 hasil = x / _y
 print(x, "/", _y, "=", hasil)
-
-<=======================================================================>
 
 print("=======Bilangan Bulat=======")
 # 2x -8 < 4x + 2
@@ -141,8 +132,8 @@ hasil = x / _y
 print(x,'/',_y,'=',hasil)
 # hp = x > -5 (-5,unlimited)
 
-print("=======Bilangan Rational=======")
 
+print("=======Bilangan Rational=======")
 # 9 >= 2x -5 >= 3
 # 9 + 5 >= 2x -5 + 5 >= 3 + 5 "ditabahkan 5 di setiap bilangan aslinya"
 # (14/2) >= (8/2)
@@ -179,4 +170,3 @@ hasil_a = 7
 hasil_b = 4
 hasil = 7 >= 4
 print(hasil_a,'>=',hasil_b,'=',hasil)
-
